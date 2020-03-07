@@ -1,4 +1,4 @@
-package io.cjf.jcartadministrationback.vo;
+package io.jlt.jcartadministrationback.vo;
 
 public class OrderProductVO {
     private Integer productId;

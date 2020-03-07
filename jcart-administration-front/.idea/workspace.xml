@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fe57fce-f7b9-4c8d-b9db-5297e61bf325" name="Default Changelist" comment="">
+      <change afterPath="D:/1705c/.gitignore" afterDir="false" />
+      <change afterPath="D:/1705c/Servers/.project" afterDir="false" />
+      <change afterPath="D:/1705c/Servers/.settings/org.eclipse.wst.server.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.classpath" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.project" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="D:/1705c/alex/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/alex/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/controller/HomeController.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/dao/CategoryMapper.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/dao/PlantMapper.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/domain/Category.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/domain/Plant.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/service/IPlantService.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/service/impl/ICategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/service/impl/IPlantServiceImpl.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/java/com/alex/week/vo/PlantVo.java" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/resources/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/resources/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/resources/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/webapp/WEB-INF/views/plant-list.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/alex/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/controller/HomeController.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/dao/CategoryMapper.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/dao/PlantMapper.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/domain/Category.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/domain/Plant.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/service/ICategoryService.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/service/IPlantService.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/service/impl/ICategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/service/impl/IPlantServiceImpl.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/com/alex/week/vo/PlantVo.class" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/classes/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.properties" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/tomcat/logs/access_log.2019-09-02" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/tomcat/logs/common-default.log" afterDir="false" />
+      <change afterPath="D:/1705c/alex/target/tomcat/logs/info-log.log" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.classpath" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.project" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="D:/1705c/day02/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/day02/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/day02/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/src/main/resources/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/src/main/resources/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/src/main/resources/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/src/main/webapp/aa.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/day02/target/classes/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/day02/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/target/classes/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/target/classes/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/target/classes/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day02/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="D:/1705c/day02/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.properties" afterDir="false" />
+      <change afterPath="D:/1705c/day02/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.classpath" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.project" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="D:/1705c/day04/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/day04/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/day04/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/src/main/resources/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/src/main/resources/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/src/main/resources/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/src/main/webapp/WEB-INF/dd.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/day04/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/day04/target/classes/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/day04/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/target/classes/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/target/classes/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/target/classes/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day04/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="D:/1705c/day04/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.properties" afterDir="false" />
+      <change afterPath="D:/1705c/day04/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day05/.classpath" afterDir="false" />
+      <change afterPath="D:/1705c/day05/.gitignore" afterDir="false" />
+      <change afterPath="D:/1705c/day05/.project" afterDir="false" />
+      <change afterPath="D:/1705c/day05/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/day05/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/day05/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/day05/src/main/java/com/bw/test/Test.java" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.classpath" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.project" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/src/main/java/com/shang/vo/plantVo.java" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/src/main/resources/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/src/main/resources/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/src/main/resources/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/classes/com/shang/vo/plantVo$PlantVo.class" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/classes/com/shang/vo/plantVo.class" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/classes/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/classes/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/classes/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/classes/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/m2e-wtp/web-resources/META-INF/maven/com.zhangsan/shang-exam/pom.properties" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/m2e-wtp/web-resources/META-INF/maven/com.zhangsan/shang-exam/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/tomcat/logs/access_log.2019-08-30" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/tomcat/logs/common-default.log" afterDir="false" />
+      <change afterPath="D:/1705c/shang-exam/target/tomcat/logs/info-log.log" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.classpath" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.project" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/java/com/bw/bean/Flower.java" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/java/com/bw/bean/Type.java" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/java/com/bw/controller/FlowerController.java" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/java/com/bw/dao/IFlowerMapper.java" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/java/com/bw/service/FlowerServiceImpl.java" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/java/com/bw/service/IFlowerService.java" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/resources/mapper/FlowerMapper.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/resources/spring-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/WEB-INF/views/addPlant.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/WEB-INF/views/plant-list.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/bootstrap-table/bootstrap-table-export.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/bootstrap-table/bootstrap-table-filter.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/bootstrap-table/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/bootstrap-table/bootstrap-table.css" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/bootstrap-table/bootstrap-table.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/css/bootstrap-treeview.css" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/css/daterangepicker-bs3.css" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/js/bootstrap-treeview.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/js/daterangepicker.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/bootstrap/js/moment.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/images/sort_asc.png" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/images/sort_both.png" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/images/sort_desc.png" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/views/add.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/views/list.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/src/main/webapp/views/update.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/com/bw/bean/Flower.class" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/com/bw/bean/Type.class" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/com/bw/controller/FlowerController.class" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/com/bw/dao/IFlowerMapper.class" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/com/bw/service/FlowerServiceImpl.class" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/com/bw/service/IFlowerService.class" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/mapper/FlowerMapper.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/spring-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.properties" afterDir="false" />
+      <change afterPath="D:/1705c/wang-week/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.classpath" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.project" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/src/main/java/com/zhangsan/StringUtils.java" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/src/test/java/com/zhangsan/Test01.java" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/target/classes/com/zhangsan/StringUtils.class" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/mDemo/pom.properties" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/mDemo/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-common/target/test-classes/com/zhangsan/Test01.class" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.classpath" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.project" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/pom.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/java/com/zhangsan/senior1/bean/DianYing.java" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/java/com/zhangsan/senior1/bean/Middle.java" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/java/com/zhangsan/senior1/bean/Type.java" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/java/com/zhangsan/senior1/controller/DianController.java" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/java/com/zhangsan/senior1/dao/DianMapper.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/java/com/zhangsan/senior1/dao/DianMappper.java" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/java/com/zhangsan/senior1/service/DianService.java" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/java/com/zhangsan/senior1/service/DianServiceImpl.java" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/resources/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/resources/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/resources/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/css/img/123.jpg" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/css/img/jlt.jpg" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/css/index1.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/css/index2.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/css/index3.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/config.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/1.jpg" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/2.jpg" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/3.jpg" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/4.jpg" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/5.jpg" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/jquery-ui.css" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/jquery.utils.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/src/main/webapp/list.jsp" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/com/zhangsan/senior1/bean/DianYing.class" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/com/zhangsan/senior1/bean/Middle.class" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/com/zhangsan/senior1/bean/Type.class" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/com/zhangsan/senior1/controller/DianController.class" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/com/zhangsan/senior1/dao/DianMapper.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/com/zhangsan/senior1/dao/DianMappper.class" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/com/zhangsan/senior1/service/DianService.class" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/com/zhangsan/senior1/service/DianServiceImpl.class" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/db.properties" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/spring-dao-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/spring-root-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/classes/spring-webmvc-context.xml" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.properties" afterDir="false" />
+      <change afterPath="D:/1705c/zhangsan-senior1-week1/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/dao/OrderHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/dto/in/CustomerSetStatusInDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/dto/out/AddressShowOutDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/dto/out/OrderShowOutDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/po/OrderHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/service/OrderHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/service/impl/OrderHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/vo/OrderProductVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/resources/io/jlt/jcartadministrationback/dao/OrderHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewmodels/address-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewmodels/address-show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewmodels/customer-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/viewmodels/customer-show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-store-front/order-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-store-front/order-show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-store-front/viewmodels/order-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jcart-store-front/viewmodels/order-show.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="751270910">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-917762974">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="12" />
+          <entry key="js" value="23" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="12" />
+          <entry key="JavaScript" value="23" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="51" />
+          <entry key="js" value="909" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="51" />
+          <entry key="JavaScript" value="909" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewmodels/administrator-create.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer-search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewmodels/customer-search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer-show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewmodels/customer-show.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/address-show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewmodels/address-index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/viewmodels/address-show.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viewmodels/administrator-login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/administrator-login.html" />
+        <option value="$PROJECT_DIR$/assets/js/vue.js" />
+        <option value="$PROJECT_DIR$/viewmodels/administrator-login.js" />
+        <option value="$PROJECT_DIR$/product-update.html" />
+        <option value="$PROJECT_DIR$/viewmodels/product-create.js" />
+        <option value="$PROJECT_DIR$/viewmodels/product-update.js" />
+        <option value="$PROJECT_DIR$/product-create.html" />
+        <option value="$PROJECT_DIR$/viewmodels/administrator-update-profile.js" />
+        <option value="$PROJECT_DIR$/administrator-update-profile.html" />
+        <option value="$PROJECT_DIR$/assets/js/common.js" />
+        <option value="$PROJECT_DIR$/viewmodels/administrator-create.js" />
+        <option value="$PROJECT_DIR$/viewmodels/administrator-update.js" />
+        <option value="$PROJECT_DIR$/viewmodels/administrator-index.js" />
+        <option value="$PROJECT_DIR$/customer-search.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="967" />
+    <option name="y" value="2" />
+    <option name="width" value="973" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jcart-administration-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcart-administration-front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jcart-administration-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcart-administration-front" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jcart-administration-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcart-administration-front" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jcart-administration-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcart-administration-front" type="462c0819:PsiDirectoryNode" />
+              <item name="viewmodels" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jcart-store-front" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Idea\jcart-administration-front\viewmodels" />
+      <recent name="E:\Idea\jcart-administration-front" />
+      <recent name="E:\Idea\jcart-administration-front\assets\js" />
+      <recent name="E:\Idea\jcart-administration-front\assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="demo.js" working-dir="$PROJECT_DIR$/viewmodels">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.demo.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fe57fce-f7b9-4c8d-b9db-5297e61bf325" name="Default Changelist" comment="" />
+      <created>1582788289127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582788289127</updated>
+      <workItem from="1582788290720" duration="14000" />
+      <workItem from="1582793688384" duration="146000" />
+      <workItem from="1582876240617" duration="109000" />
+      <workItem from="1583123042296" duration="146000" />
+      <workItem from="1583123193981" duration="10684000" />
+      <workItem from="1583147724014" duration="1634000" />
+      <workItem from="1583196055545" duration="7589000" />
+      <workItem from="1583215377367" duration="5168000" />
+      <workItem from="1583284544946" duration="6827000" />
+      <workItem from="1583370402906" duration="987000" />
+      <workItem from="1583456301849" duration="159000" />
+      <workItem from="1583541466509" duration="2378000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="35841000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11275026" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.13646533" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/product-create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="22" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/product-update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/product-search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/vendor/tinymce/langs/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/elementui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3078" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/axios.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="624" column="10" selection-start-line="624" selection-start-column="10" selection-end-line="624" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator-update-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/administrator-update-profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator-create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/administrator-update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator-update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/administrator-index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/administrator-create.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/administrator-login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/customer-search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer-show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/customer-show.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/address-show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/address-index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewmodels/address-show.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="io.jlt.jcartstoreback.mapper.OrderHistoryMapper">
-  <resultMap id="BaseResultMap" type="io.jlt.jcartstoreback.po.OrderHistory">
+<mapper namespace="io.jlt.jcartadministrationback.dao.OrderHistoryMapper">
+  <resultMap id="BaseResultMap" type="io.jlt.jcartadministrationback.po.OrderHistory">
     <id column="order_history_id" jdbcType="BIGINT" property="orderHistoryId" />
     <result column="order_id" jdbcType="BIGINT" property="orderId" />
     <result column="time" jdbcType="TIMESTAMP" property="time" />
@@ -22,7 +22,7 @@
     delete from jcart_order_history
     where order_history_id = #{orderHistoryId,jdbcType=BIGINT}
   </delete>
-  <insert id="insert" parameterType="io.jlt.jcartstoreback.po.OrderHistory">
+  <insert id="insert" parameterType="io.jlt.jcartadministrationback.po.OrderHistory">
     insert into jcart_order_history (order_history_id, order_id, time, 
       order_status, comment, customer_notified
       )
@@ -30,12 +30,9 @@
       #{orderStatus,jdbcType=TINYINT}, #{comment,jdbcType=VARCHAR}, #{customerNotified,jdbcType=BIT}
       )
   </insert>
-  <insert id="insertSelective" parameterType="io.jlt.jcartstoreback.po.OrderHistory">
+  <insert id="insertSelective" parameterType="io.jlt.jcartadministrationback.po.OrderHistory" useGeneratedKeys="true" keyProperty="orderHistoryId">
     insert into jcart_order_history
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="orderHistoryId != null">
-        order_history_id,
-      </if>
       <if test="orderId != null">
         order_id,
       </if>
@@ -53,9 +50,6 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="orderHistoryId != null">
-        #{orderHistoryId,jdbcType=BIGINT},
-      </if>
       <if test="orderId != null">
         #{orderId,jdbcType=BIGINT},
       </if>
@@ -73,7 +67,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="io.jlt.jcartstoreback.po.OrderHistory">
+  <update id="updateByPrimaryKeySelective" parameterType="io.jlt.jcartadministrationback.po.OrderHistory">
     update jcart_order_history
     <set>
       <if test="orderId != null">
@@ -94,7 +88,7 @@
     </set>
     where order_history_id = #{orderHistoryId,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="io.jlt.jcartstoreback.po.OrderHistory">
+  <update id="updateByPrimaryKey" parameterType="io.jlt.jcartadministrationback.po.OrderHistory">
     update jcart_order_history
     set order_id = #{orderId,jdbcType=BIGINT},
       time = #{time,jdbcType=TIMESTAMP},
@@ -103,4 +97,12 @@
       customer_notified = #{customerNotified,jdbcType=BIT}
     where order_history_id = #{orderHistoryId,jdbcType=BIGINT}
   </update>
+
+    <select id="selectByOrderId" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from jcart_order_history
+        where order_id = #{orderId}
+        order by `time` desc
+    </select>
 </mapper>

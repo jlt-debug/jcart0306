@@ -1,4 +1,4 @@
-package io.jlt.jcartstoreback.po;
+package io.jlt.jcartadministrationback.po;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package io.cjf.jcartadministrationback.dto.out;
+package io.jlt.jcartadministrationback.dto.out;
 
 public class AddressShowOutDTO {
     private Integer addressId;
