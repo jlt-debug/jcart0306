@@ -382,14 +382,6 @@
       <change afterPath="D:/1705c/zhangsan-senior1-week1/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change afterPath="D:/1705c/zhangsan-senior1-week1/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.properties" afterDir="false" />
       <change afterPath="D:/1705c/zhangsan-senior1-week1/target/m2e-wtp/web-resources/META-INF/maven/com.bawei/bawei-movie/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jcart-administration-front/order-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jcart-administration-front/order-show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jcart-administration-front/returnhistory-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jcart-administration-front/viewmodels/order-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jcart-administration-front/viewmodels/order-show.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jcart-administration-front/viewmodels/returnhistory-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jcart-administration-back/src/main/java/io/jlt/jcartadministrationback/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jcart-administration-front/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jcart-administration-front/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -634,7 +626,7 @@
     <option name="totallyTimeSpent" value="21445000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="984" y="0" width="974" height="1026" extended-state="0" />
+    <frame x="317" y="70" width="974" height="1026" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30982906" />
